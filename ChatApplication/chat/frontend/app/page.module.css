@@ -1,0 +1,14 @@
+
+.App {
+    min-height: 100vh;
+    background-color: indigo;
+    background-size: cover; /* Optional: ensures the image covers the entire container */
+    background-position: center; /* Optional: centers the image */
+    position: relative;
+    
+}
+
+.box{
+    justify-content: center;
+    background-color: black;
+}

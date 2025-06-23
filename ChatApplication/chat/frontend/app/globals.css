@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: default) {
+  :root {
+    --background: rgb(255, 255, 255);
+    --foreground: #000000;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar{
+  width:0px;
+}
+::-webkit-scrollbar-thumb{
+  background:rgba(136, 136, 136, 0.281) ;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
